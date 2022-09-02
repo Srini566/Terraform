@@ -21,7 +21,7 @@ resource "aws_instance" "Web" {
   ami           = var.ami
   instance_type = var.type
   tags = {
-    Name = "Pipeline-EC2-NEW"
+    Name = "Pipeline-EC2"
   }
 }
 
